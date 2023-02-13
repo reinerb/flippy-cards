@@ -152,15 +152,15 @@ body {
 }
 
 #expertise {
-  --bg-url: url(https://wt.btreiner.com/wp-content/uploads/2023/02/Subject-matter-expertise.png);
+  --bg-url: url("images/expertise.png");
 }
 
 #experience {
-  --bg-url: url(https://wt.btreiner.com/wp-content/uploads/2023/02/Experience.png);
+  --bg-url: url("images/experience.png");
 }
 
 #connections {
-  --bg-url: url(https://wt.btreiner.com/wp-content/uploads/2023/02/Connections.png);
+  --bg-url: url("images/connections.png");
 }
 
 .card-title {
