@@ -119,7 +119,7 @@ body {
 }
 
 .card-container:hover .card-content {
-  transform: rotateX(-180deg);
+  transform: rotateX(180deg);
 }
 
 .card-front,
@@ -147,7 +147,7 @@ body {
   background: var(--bg-url) rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
-  transform: rotateX(-180deg);
+  transform: rotateX(180deg);
   color: white;
 }
 
