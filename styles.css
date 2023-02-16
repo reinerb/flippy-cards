@@ -185,6 +185,50 @@ body {
 
 .card-title {
   color: white;
-  background: rgb(0, 0, 0, 0.4);
+}
+
+#experience .card-title {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1rem;
+}
+
+#connections .card-front {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 20%,
+      rgba(0, 0, 0, 0) 40%
+    ),
+    var(--bg-url);
+  place-items: end center;
+}
+
+#expertise .card-front {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 20%,
+      rgba(0, 0, 0, 0) 50%
+    ),
+    var(--bg-url);
+  place-items: start center;
+}
+
+#mastery .card-front {
+  place-items: end center;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
+#confidence .card-front {
+  place-items: start center;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
+#grades .card-front {
+  place-items: end center;
+}
+
+#grades .card-title {
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 0.5rem 1rem;
 }
