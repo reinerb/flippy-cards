@@ -138,8 +138,13 @@ body {
 }
 
 @media (any-hover: hover) {
-  .flip-card:hover .card-content {
+  .flip-card:hover .card-content,
+  .flip-card:focus-within .card-content {
     transform: rotateX(180deg) scale(1.2);
+  }
+
+  .flip-card:focus-within .card-content {
+    outline: 1px solid black;
   }
 
   .card-content {
@@ -178,6 +183,18 @@ body {
     transform: rotateX(180deg);
     color: white;
   }
+}
+
+#expertise {
+  --bg-url: url("images/expertise.png");
+}
+
+#experience {
+  --bg-url: url("images/experience.png");
+}
+
+#connections {
+  --bg-url: url("images/connections.png");
 }
 
 #confidence {
