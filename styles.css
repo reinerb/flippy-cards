@@ -176,6 +176,17 @@ body {
     background-size: cover;
   }
 
+  .card-title::after {
+    content: "\21BA";
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0.05em 0.05em rgba(0, 0, 0, 0.4);
+  }
+
   .card-body {
     background: var(--bg-url) rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
